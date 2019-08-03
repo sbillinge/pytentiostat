@@ -19,6 +19,7 @@ def save_data_to_file(data, filename="Place_Holder.csv"):
 
     # These will be imported from config
     export_file_destination = "Place/holder/path"
+    
 
     list_data = list(data)
     df = pd.DataFrame(data=list_data,
